@@ -1,4 +1,3 @@
-name: Deploy ASP.NET Core MVC
 
 name: Deploy .NET 10 MVC to MonsterASP.net
 
@@ -50,4 +49,4 @@ jobs:
       - name: ▶️ Start Server (Delete app_offline.htm)
         if: always()
         run: |
-          curl -s --ftp-pasv -u "${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}" "ftp://${{ secrets.FTP_SERVER }}/" -Q "-DELE /wwwroot/app_offline.htm" || true
+          curl -s --ftp-pasv -u "${{ secrets.FTP_USERNAME }}:${{ secrets.FTP_PASSWORD }}" "ftp://${{ secrets.FTP_SERVER }}/" -Q "-DELE /wwwroot/app_offline.htm" || true 
