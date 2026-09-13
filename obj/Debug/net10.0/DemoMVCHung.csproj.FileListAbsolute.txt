@@ -95,3 +95,4 @@ C:\Users\Hung Doe\DemoMVCHung\obj\Debug\net10.0\refint\DemoMVCHung.dll
 C:\Users\Hung Doe\DemoMVCHung\obj\Debug\net10.0\DemoMVCHung.pdb
 C:\Users\Hung Doe\DemoMVCHung\obj\Debug\net10.0\DemoMVCHung.genruntimeconfig.cache
 C:\Users\Hung Doe\DemoMVCHung\obj\Debug\net10.0\ref\DemoMVCHung.dll
+C:\Users\Hung Doe\DemoMVCHung\obj\Debug\net10.0\DemoMVCHung.sourcelink.json
