@@ -1,0 +1,24 @@
+@model DemoMVCHung.Models.Student
+
+<h1>Thêm sinh viên</h1>
+
+<form asp-action="Create" method="post">
+
+    <div>
+        <label>Họ tên</label>
+        <input asp-for="HoTen" />
+    </div>
+
+    <div>
+        <label>Tuổi</label>
+        <input asp-for="Tuoi" />
+    </div>
+
+    <div>
+        <label>Điểm</label>
+        <input asp-for="Diem" />
+    </div>
+
+    <button type="submit">Thêm</button>
+
+</form>
