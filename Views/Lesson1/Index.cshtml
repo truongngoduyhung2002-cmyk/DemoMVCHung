@@ -1,0 +1,20 @@
+<h1>VD về Controller và View</h1>
+<p>@ViewBag.Message</p>
+<p>Xin chào: @ViewBag.Name</p>
+
+<form asp-controller="Lesson1"
+      asp-action="Index"
+      method="post">
+
+    <label>Họ tên:</label>
+    <input type="text" name="Ho Ten" />
+
+    <br/>
+
+    <label>Tuổi:</label>
+    <input type="number" name="Tuoi" />
+
+    <br/>
+
+    <button type="submit">Gửi</button>
+</form>
