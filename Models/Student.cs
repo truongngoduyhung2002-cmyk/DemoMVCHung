@@ -1,13 +1,18 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace DemoMVCHung.Models
 {
     public class Student
     {
-        public int Id { get; set; }
+        [Key]
+        public int Id { get; set; } = default!;
 
-        public string HoTen { get; set; }
+        public string HoTen { get; set; } = default!;
 
-        public int Tuoi { get; set; }
+        public int Tuoi { get; set; } = default!;
 
-        public double Diem { get; set; }
+        public double Diem { get; set; } = default!;
+
+        public string Email { get; set; } = default!;
     }
 }

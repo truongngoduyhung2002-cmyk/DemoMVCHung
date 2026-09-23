@@ -1,10 +1,12 @@
-var builder = WebApplication.CreateBuilder(args);
+using DemoMVCHung.Data;
+using Microsoft.EntityFrameworkCore;
 
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlite(builder.Configuration.GetConnectionString("DemoMVCHungDb") ?? throw new InvalidOperationException("Connection string 'DemoMVCHungDb' not found.")));
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
-
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
