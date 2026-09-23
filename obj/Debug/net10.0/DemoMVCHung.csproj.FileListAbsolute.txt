@@ -96,3 +96,4 @@ C:\Users\Hung Doe\DemoMVCHung\obj\Debug\net10.0\DemoMVCHung.pdb
 C:\Users\Hung Doe\DemoMVCHung\obj\Debug\net10.0\DemoMVCHung.genruntimeconfig.cache
 C:\Users\Hung Doe\DemoMVCHung\obj\Debug\net10.0\ref\DemoMVCHung.dll
 C:\Users\Hung Doe\DemoMVCHung\obj\Debug\net10.0\DemoMVCHung.sourcelink.json
+C:\Users\Hung Doe\DemoMVCHung\obj\Debug\net10.0\compressed\6m9xjhh56i-{0}-45h7dx1jnt-45h7dx1jnt.gz
